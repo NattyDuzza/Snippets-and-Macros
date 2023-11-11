@@ -1,0 +1,21 @@
+# Boiler Plates
+snippet bp "Most Simple Boiler Plate"
+\documentclass[$1]{$2}
+\begin{document}
+$3
+\end{document}
+endsnippet
+
+snippet bpp "Boiler Plate with Premables"
+\documentclass[$1]{$2}
+\input{premable}
+\input{macros}
+
+\title{\Huge{$1}}
+\author{\huge{Nathan Durrant}}
+
+\begin{document}
+
+\maketitle
+\newpage
+endsnippet
