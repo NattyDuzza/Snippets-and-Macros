@@ -1,3 +1,12 @@
 snippet deflimseq "Generic definition of A_n converging"
-$1  \abs{a_n - l} < \varepislon \;\;\; \text{ for all } \nnat \text{ where } n > N  $0
+A sequence $\seq$ converges to a limit $l \in \mathbb{R}$ if for every $\varepsilon \geq 0$ there exists $n \in \mathbb{N}$ such that\\
+$$\abs{a_n - l} < \varepsilon \;\;\;\;$ for every $n \geq N$ $0
+endsnippet
+
+snippet inril
+\in \mathbb{R} $0
+endsnippet
+
+snippet innat
+\in \mathbb{N} $0
 endsnippet
