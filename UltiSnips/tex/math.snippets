@@ -1,2 +1,45 @@
 # Snippets to call macros
+snippet nnat "N is natural"
+\nnat $0
+endsnippet
 
+snippet xril "X is real"
+\xril $0
+endsnippet
+
+snippet epz "Epsilon greater than 0"
+\epz $0
+endsnippet
+
+snippet abs "Absolute Value / Modulus"
+\abs{ $1} $0
+endsnippet
+
+snippet seq "Basic (a_n) sequence"
+\seq $0
+endsnippet
+
+snippet tend "something tends to something"
+\tend{ $1}{ $2} $0
+endsnippet
+
+snippet tndl "something tends to l"
+\tendl{ $1} $0
+endsnippet
+
+snippet tndi "something tend to infinity"
+\tendinf{ $1} $0
+endsnippet
+
+snippet tndz "something tends to 0"
+\tndz{ $1} $0
+endsnippet
+
+#Snippets for base functions etc
+snippet m "inline math"
+$ $1$ $0
+endsnippet
+
+snippet ml "newline math"
+$$ $2$$ $0
+endsnippet
